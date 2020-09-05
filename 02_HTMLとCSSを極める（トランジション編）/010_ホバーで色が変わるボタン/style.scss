@@ -14,11 +14,17 @@ $cBlack: rgb(34, 30, 30);
   cursor: pointer;
   transition: all 1.3s;
 
-  &:hover {
- background-color: $cBlack;
- color: $cWhite;
- opacity: 0.3px;
+  &.btn.float {
+    &:hover: {
+      box-shadow: 0 0 10px $cBlack:
+    }
+  }
 
-}
+//   &:hover {
+//  background-color: $cBlack;
+//  color: $cWhite;
+//  opacity: 0.3px;
+
+// }
 
 }
