@@ -1,0 +1,24 @@
+$cWhite: white;
+$cBlack: rgb(34, 30, 30);
+
+.btn {
+  text-align: center;
+  width: 150px;
+  height: 50px;
+  background-color:$cWhite;
+  color: $cBlack;
+  border: 4px solid $cBlack;
+  margin: 10px 40px;
+  padding: 10px 40px 10px 40px;
+  font-weight: 600px;
+  cursor: pointer;
+  transition: all 1.3s;
+
+  &:hover {
+ background-color: $cBlack;
+ color: $cWhite;
+ opacity: 0.3px;
+
+}
+
+}
