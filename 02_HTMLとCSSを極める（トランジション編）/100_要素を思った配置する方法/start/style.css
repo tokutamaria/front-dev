@@ -36,6 +36,10 @@
           flex-grow: 3;
 }
 
+.child {
+  margin: 0 auto;
+}
+
 /**
  * 横方向のレイアウト
  */
