@@ -1,0 +1,36 @@
+a {
+  color: orange;
+
+  &:visited {
+    color: red;
+  }
+
+  &:hover {
+    color: blue;
+  }
+
+  &:focus {
+    color: green;
+  }
+
+  &:active {
+    color: purple;
+  }
+}
+
+
+div {
+  & span {
+    color: olive;
+  }
+
+  & span:nth-of-type(1) {
+    color: purple;
+  }
+  & span:nth-of-type(2) {
+    color: purple;
+  }
+  & span:nth-of-type(3) {
+    color: purple;
+  }
+}
