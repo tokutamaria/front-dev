@@ -8,6 +8,7 @@ img {
 .cover-slide {
   position: relative;
   overflow: hidden;
+  margin-bottom: 80vh;
 
   &::after {
     content: "";
@@ -20,6 +21,7 @@ img {
     background-color: #eaebe6;
     opacity: 0;
   }
+  
   &.inview {
     &::after {
       opacity: 1;
@@ -136,7 +138,7 @@ img {
 
 .img-bg50 {
   position: relative;
-  
+
   &::before {
     display: block;
     content: '';
